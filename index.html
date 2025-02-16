@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Website Saya</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
@@ -33,39 +33,43 @@
     </video>
     
     <div class="content">
-        <h1>Selamat Datang di Website Sasaniyah</h1>
-        <p>Jelajahi sejarah kejayaan Sasaniyah.</p>
+        <h1 class="teks-stroke-1">Selamat Datang di Website Sasaniyah</h1>
+        <p class="teks-stroke-2">Jelajahi sejarah kejayaan Sasaniyah.</p>      
     </div>
     
     <div class="content">
     
     <div class="content">
     <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang pengembang web developer it suport rythme player gamer.</p>
+        <h1 class="teks-stroke-1">Tentang Saya</h1>
+        <p class="teks-stroke-2">Saya adalah seorang pengembang web developer it suport rythme player gamer.</p>
     </section>
 
     <section id="projects">
-        <h2>Tentang Project Saya</h2>
         <div class="project-container">
-            <div class="project-card">
-                <img src="476341542_1334909991027485_5780998733704017476_n.jpg" alt="Proyek 1">
+            <!-- Proyek Saya (di kiri) -->
+            <div class="kertas">
+                <img src="476341542_1334909991027485_5780998733704017476_n.jpg" alt="Khairia" width="100">
                 <h3>Proyek Saya</h3>
-                  <div class="navigation">
-                    <a href="https://github.com/Khairiaaaa?tab=repositories" target="_blank">
-                        <button class="btn-next">Lihat Selengkapnya →</button>
-                    </a>
+                <a href="https://github.com/Khairiaaaa?tab=repositories" target="_blank">
+                    <button class="btn-next">Lihat Selengkapnya →</button>
+                </a>
             </div>
-            <div class="project-card">
-                <img src="download.png" alt="Tentang Sasaniyah">
+    
+            <!-- Tentang Sasaniyah (di kanan) -->
+            <div class="kertas">
+                <img src="download.png" alt="Tentang Sasaniyah" width="100">
                 <h3>Tentang Sasaniyah</h3>
                 <p>Kekaisaran Sasaniyah adalah dinasti Persia yang berkuasa dari tahun 224 hingga 651 M.</p>
-                  <div class="navigation">
-                    <a href="https://id.wikipedia.org/wiki/Kekaisaran_Sasaniyah" target="_blank">
-                        <button class="btn-next">Lihat Selengkapnya →</button>
-                    </a>
-                  
-                </div>
+                <a href="https://id.wikipedia.org/wiki/Kekaisaran_Sasaniyah" target="_blank">
+                    <button class="btn-next">Lihat Selengkapnya →</button>
+                </a>
+            </div>
+        </div>
+    </section>
+        
+            </div>
+        </div>
     <section id="contact">
         <h2>Kontak Saya</h2>
         <form id="contactForm">
@@ -74,8 +78,8 @@
             <textarea id="message" placeholder="Pesan" required></textarea>
             <button type="submit">Kirim</button>
         </form>
-        <p id="formMessage"></p>
     </section>
+        <p id="formMessage"></p>
     <footer>
         <p>&copy; 2025 Sasaniyah Kebebasan. Semua Hak Dilindungi.</p>
         <img src="IMG_20250213_075612.jpg" alt="Logo Sasaniyah" width="100">
